@@ -1,7 +1,6 @@
 # CSS Fixes and Modifications
-
- - Content Card Overflow Fix
-
+<details>
+ <summary>- Content Card Overflow Fix</summary>
 ## [Content-Card-Container-Overflow-Fix.css](https://github.com/mwesker/code-bits/blob/master/CSS/content-card-container-overflow-fix.css "content-card-container-overflow-fix.css")
 ```css
 .uccs-cta-card-content {
@@ -13,3 +12,4 @@
 
 ## After Fix
 ![enter image description here](./Images/CSS-CCOF-Fixed.jpg)
+</details>
