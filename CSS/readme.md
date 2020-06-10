@@ -15,6 +15,12 @@
 ## After Fix
 ![enter image description here](./Images/CSS-CCOF-Fixed.jpg)
 
+</details>
+
+<details>
+	
 <summary>- Content Card Overflow Fix</summary>
+	
 ## TEST
+	
 </details>
