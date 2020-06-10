@@ -1,0 +1,9 @@
+/* Extra spacing for bottom of page */
+.node--type-uccs-single-page-2018 {
+  margin-bottom: 8em;
+  }
+  
+/* Extra spacing for bottom of accordion answer */
+  .uccs-sp-accordion-answer {
+    margin-bottom: 2em;
+  }
