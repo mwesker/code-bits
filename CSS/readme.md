@@ -36,5 +36,8 @@ a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] 
 border: 3px red dashed !important;
 }
 ```
+### Example
+
+![enter image description here](./Images/old-link-highlight.jpg)
 	
 </details>
