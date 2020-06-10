@@ -1,0 +1,5 @@
+/* This fixes an overflow issue with certain embeds in the "Content Card Row" */
+
+.uccs-cta-card-content {
+  height:calc(100% + 5em);
+}
