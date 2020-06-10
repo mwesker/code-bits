@@ -9,7 +9,7 @@
 }
 ```
 ## Before Fix
-![enter image description here](../master/CSS/Images/CSS-CCOF-Fix.jpg)
+![enter image description here](../Images/CSS-CCOF-Fix.jpg)
 
 ## After Fix
 ![enter image description here](../master/CSS/Images/CSS-CCOF-Fixed.jpg)
