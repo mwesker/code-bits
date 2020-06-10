@@ -1,12 +1,28 @@
+<!-- Replace "<replace>" in the rules with the sitename you are working on -->
+<!-- Create a custom block called "remove when migration comlete" and add this code and place in pre-content in block layout-->
+<!--  Remove when Visual Regression is complete -->
+
 <style type="text/css">
 
-  a[href^="/johnsonbethel"], a[href*="edu/johnsonbethel/"] {
-    border: 3px red dashed;
-}
-a[href^="/johnsonbethel"]::before, a[href*="edu/johnsonbethel/"]::before {
-    content:"*";
-}
-a[href*="/johnsonbethel/sites/johnsonbethel/"], img[src*="/johnsonbethel/sites/johnsonbethel/"] {
-    border: 3px red dashed;
-}
+  /*  Detects links that are either relative or absolute that resolve to https"//www.uccs.edu/sitename/path 
+      To fix, these links should be resolve to https://sitename.uccs.edu/path
+      the rule adds a red dashed border and an asterisk before the link text.
+  */
+  a[href^="/<replace>"], a[href*="edu/<replace>/"] {
+    border: 3px red dashed !important;
+  }
+  
+  a[href^="/<replace>"]::before, a[href*="edu/<replace>/"]::before {
+      content:"*";
+  }
+  
+    /*  Detects files and imgs that follow the old path format and thus have not been uploaded to the new shell.
+        Unchanged paths follow the format of https://www.uccs.edu/sitename/files/sitename/<path> 
+        To fix, these links should be resolve to https://sitename.uccs.edu/sites/g/files/<path>
+        The rule adds a red dashed border.
+  */
+  a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] {
+      border: 3px red dashed !important;
+  }
+  
 </style>
