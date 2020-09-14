@@ -1,0 +1,23 @@
+#UCCSmainNavContainer a {
+  font-size: 14px !important;
+}
+.uccs-header-lower-container {
+  max-width: 1600px !important;
+  padding-left: 6.5em;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right:4px !important;
+  padding-left:4px !important;
+}
+#UCCSmainNavContainer li.nav-item.main-menu-item {
+  padding-right:0 !important;
+}
+.uccs-main-dropdown-menu li {
+  border-right: 0 !important;
+}
+.navbar-expand-sm .navbar-nav {
+  -ms-flex-direction:row;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
