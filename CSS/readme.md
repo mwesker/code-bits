@@ -25,15 +25,15 @@
 
 ```css
 a[href^="/<replace>"], a[href*="edu/<replace>/"] {
-border: 3px red dashed !important;
+	border: 3px red dashed !important;
 }
 
 a[href^="/<replace>"]::before, a[href*="edu/<replace>/"]::before {
-content:"*";
+	content:"*";
 }
 
 a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] {
-border: 3px red dashed !important;
+	border: 3px red dashed !important;
 }
 ```
 ### Example
