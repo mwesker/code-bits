@@ -19,31 +19,6 @@
 
 <details>
 	
-<summary>Responsive Table #1</summary>
-	
-## [highlight-old-links.html](https://github.com/mwesker/code-bits/blob/master/CSS/Migration-Helpers/highlight-old-links.html "highlight-old-links.html")
-
-```css
-a[href^="/<replace>"], a[href*="edu/<replace>/"] {
-	border: 3px red dashed !important;
-}
-
-a[href^="/<replace>"]::before, a[href*="edu/<replace>/"]::before {
-	content:"*";
-}
-
-a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] {
-	border: 3px red dashed !important;
-}
-```
-### Example
-
-![enter image description here](./Images/old-link-highlight.jpg)
-	
-</details>
-
-<details>
-	
 <summary>Link Helper Style for Migrations</summary>
 	
 ## [highlight-old-links.html](https://github.com/mwesker/code-bits/blob/master/CSS/Migration-Helpers/highlight-old-links.html "highlight-old-links.html")
