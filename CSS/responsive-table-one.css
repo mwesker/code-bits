@@ -1,0 +1,86 @@
+/*Add or change the :before selectors with the text for each corresponding header*/
+@media screen
+and (max-width: 760px), (min-device-width: 768px)
+and (max-device-width: 1024px)  {
+
+    td:nth-of-type(1):before {
+        content: "Head 1";
+    }
+    td:nth-of-type(2):before {
+        content: "Head 2";
+    }
+    td:nth-of-type(3):before {
+        content: "Head 3";
+    }
+    /*Add more as needed*/
+    /*
+    td:nth-of-type(n):before {
+        content: "Head n";
+    }
+     */
+}
+
+/*Depending on the needs of your table you may need to adjust the following style*/
+@media only screen
+and (max-width: 760px), (min-device-width: 768px)
+and (max-device-width: 1024px)  {
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+        background: #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50% !important;
+        text-align:center;
+        width: auto !important;
+    }
+
+    td:before {
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        padding: .75rem;
+        font-weight:bold;
+    }
+
+}
+
+@media only screen
+and (max-width: 552px){
+    td:before {
+        position: relative;
+        left: 0px;
+        white-space: normal;
+        word-break: break-all;
+        width: 100%;
+        display: inline-block;
+    }
+    .table td,
+    .table th {
+        padding-left:0 !important;
+        width: auto !important;
+    }
+}
+
+.table thead th {
+    text-align:center;
+}
