@@ -53,6 +53,7 @@ a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] 
 ```
 ### Example
 
+![Table example at desktop resolution](./Images/responsive-table-full-res.jpg)
 
 
 </details>
