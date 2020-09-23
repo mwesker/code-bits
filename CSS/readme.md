@@ -1,7 +1,7 @@
 # CSS Fixes and Modifications
 <details>
  <summary>Content Card Overflow Fix</summary>
-	
+
 ## [Content-Card-Container-Overflow-Fix.css](https://github.com/mwesker/code-bits/blob/master/CSS/content-card-container-overflow-fix.css "content-card-container-overflow-fix.css")
 
 ```css
@@ -18,9 +18,9 @@
 </details>
 
 <details>
-	
+
 <summary>Link Helper Style for Migrations</summary>
-	
+
 ## [highlight-old-links.html](https://github.com/mwesker/code-bits/blob/master/CSS/Migration-Helpers/highlight-old-links.html "highlight-old-links.html")
 
 ```css
@@ -39,5 +39,20 @@ a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] 
 ### Example
 
 ![enter image description here](./Images/old-link-highlight.jpg)
-	
+
+</details>
+
+<details>
+
+<summary>Responsive Table #1</summary>
+
+## [responsive-table-one.css]("#")
+
+```css
+/*Todo*/
+```
+### Example
+
+
+
 </details>
