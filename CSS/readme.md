@@ -53,13 +53,13 @@ a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] 
 ```
 ### Example
 
-# No Break
+#### No Break
 ![Table example at desktop resolution](./Images/responsive-table-full-res.jpg)
 
-# First Break
+#### First Break
 ![Table example at desktop resolution](./Images/responsive-table-first-break.jpg)
 
-# Final Break
+#### Final Break
 ![Table example at desktop resolution](./Images/responsive-table-final-break.jpg)
 
 
