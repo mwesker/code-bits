@@ -49,7 +49,13 @@ a[href*="/<replace>/sites/<replace>/"], img[src*="/<replace>/sites/<replace>/"] 
 ## [responsive-table-one.css](https://github.com/mwesker/code-bits/blob/master/CSS/responsive-table-one.css "responsive-table-one.css")
 
 ```css
+/*Tables must use thead for the headers. Works only with relatively simple tables*/
+
+
 /*Add or change the :before selectors with the text for each corresponding header*/
+/*If there are multiple tables use id selectors with the td:nth-of-type(n):before rules
+Ex. #table1 td:nth-of-type(n):before rules {...}
+*/
 @media screen
 and (max-width: 760px), (min-device-width: 768px)
 and (max-device-width: 1024px)  {
@@ -64,8 +70,8 @@ and (max-device-width: 1024px)  {
         content: "Head 3";
     }
     /*Add more as needed*/
-    /*
-    td:nth-of-type(n):before {
+    /* #id optional
+    #id td:nth-of-type(n):before {
         content: "Head n";
     }
      */
