@@ -1,0 +1,32 @@
+@media (min-width:576px){
+    #UCCSmainNavContainer a {
+        /*change depending on the amount of links in the menu
+        13px is probably as low as I would go*/
+        font-size: 16px !important;
+    }
+    .uccs-header-lower-container {
+        max-width: 1140px !important;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right:4px !important;
+        padding-left:4px !important;
+    }
+    #UCCSmainNavContainer li.nav-item.main-menu-item {
+        padding-right:0 ;
+    }
+    .dropdown-menu .nav-item {
+        padding-right: 1.5rem !important;
+    }
+    .uccs-main-dropdown-menu li {
+        border-right: 0 !important;
+    }
+    .navbar-expand-sm .navbar-nav {
+        -ms-flex-direction:row;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .dropdown-menu {
+        max-width:30rem;
+        width: max-content;
+    }
+}
